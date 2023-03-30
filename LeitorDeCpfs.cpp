@@ -1,4 +1,4 @@
-//Solicite um CPF e retorne se o mesmo È ou n„o v·lido
+//Solicite um CPF e retorne se o mesmo √© ou n√£o v√°lido
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -9,13 +9,13 @@
 
 FILE *arq;
 int v[11],sm;
-char tmp[15], tmp2[15]="109.862.559-55";
+char tmp[15], tmp2[15]="123.456.789.12";
 int d1,d2,ncpf, n;
 //-----------------------------------------------------------------
 int main () {
 n=1;
 srand(time(NULL)); 
- arq = fopen("cpfs.txt", "r"); //gravaÁ„o
+ arq = fopen("cpfs.txt", "r"); //grava√ß√£o
  
 for(int i = 0; i <= 220000000; i++){
 	fscanf(arq,"%s",&tmp);
